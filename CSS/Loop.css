@@ -1,0 +1,344 @@
+/* Main Contents */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("73.jpg") center/cover no-repeat;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+  user-select: none;
+  overflow: visible;
+}
+
+.bg-transparent {
+  border-radius: 30px;
+  border: 2px solid #ffff;
+  min-height: 700px;
+}
+
+.loop {
+  border: none;
+  background-color: transparent;
+  color: white;
+  margin-top: 0.5rem;
+  font: 50 25px Roboto, sans-serif;
+  text-align: start;
+}
+
+.main-buttons {
+  border: none;
+  color: white;
+  margin-top: 0.5rem;
+  font: 50 16px Roboto, sans-serif;
+}
+
+/* Page 1 */
+
+.lottie-container {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.one-letter {
+  display: flex;
+  align-items: center;
+  font: 50 200px Roboto, sans-serif;
+}
+
+.three-word {
+  font: 50 30px Roboto, sans-serif;
+}
+
+/* Page 2 and Page 3 (title-goal) */
+
+.title-goal {
+  font: 50 38px Roboto, sans-serif;
+}
+
+.paragraph {
+  font: 50 25px Roboto, sans-serif;
+  text-align: justify;
+  padding: 3rem !important;
+  line-height: 1.5;
+}
+
+/* Page 3 */
+
+.title-bullet {
+  font: 50 38px Roboto, sans-serif;
+  padding-left: 2.5rem !important;
+}
+
+.bullet {
+  color: #fff;
+  align-self: end;
+  margin-top: 1rem !important;
+  font: 50 25px Roboto, sans-serif;
+  text-align: start;
+  padding: 5rem !important;
+}
+
+/* Page 4 */
+
+.title-aboutus {
+  font: 50 38px Roboto, sans-serif;
+  padding-left: 3rem !important;
+}
+
+/* Page 5 */
+
+.title-contactus {
+  font: 50 38px Roboto, sans-serif;
+  padding-left: 5rem !important;
+}
+
+.contactus {
+  font: 50 25px Roboto, sans-serif;
+  text-align: start;
+  line-height: 2;
+  padding: 5rem !important;
+}
+
+.bg-contactform {
+  border-radius: 30px;
+  backdrop-filter: blur(5px);
+  border: 0.1px solid #ffff;
+  margin-top: 2rem !important;
+}
+
+.form-label {
+  font: 50 16px Roboto, sans-serif;
+  margin-left: 0.7rem !important;
+}
+
+.form-control {
+  background-color: whitesmoke;
+  border-radius: 15px;
+  border: none;
+}
+
+.form-control::placeholder {
+  color: black;
+}
+
+.send-button {
+  color: white;
+  border-radius: 10px;
+  border: 0.1px solid white;
+}
+
+.padding-contactform {
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
+}
+
+/* Responsive Typography */
+
+@media screen and (max-width: 576px) {
+  .container {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .loop {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .main-buttons {
+    font: 50 20px Roboto, sans-serif;
+  }
+
+  .one-letter {
+    font-size: 80px;
+  }
+
+  .three-word {
+    font-size: 15px;
+  }
+
+  .lottie-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .padding-contactform {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .bg-contactform {
+    margin-bottom: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .loop {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .main-buttons {
+    font: 50 20px Roboto, sans-serif;
+  }
+
+  .one-letter {
+    font-size: 100px;
+  }
+
+  .three-word {
+    font-size: 18px;
+  }
+
+  .lottie-container {
+    width: 300px;
+    height: 300px;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .padding-contactform {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .bg-contactform {
+    margin-bottom: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .loop {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .main-buttons {
+    font: 50 20px Roboto, sans-serif;
+  }
+
+  .one-letter {
+    font-size: 100px;
+  }
+
+  .three-word {
+    font-size: 18px;
+  }
+
+  .lottie-container {
+    width: 300px;
+    height: 300px;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .padding-contactform {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .bg-contactform {
+    margin-bottom: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .padding-contactform {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    overflow: hidden;
+  }
+}
+
+/* Animation Two */
+
+.content {
+  animation: fadeIn 0.5s ease;
+}
+
+.other_content {
+  display: none;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Unused */
+
+.bg-glass {
+  border-radius: 30px;
+  border: 2px solid #ffff;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.15) 100%
+  );
+  backdrop-filter: blur(2px);
+  min-height: 450px;
+}
+
+#wave canvas {
+  border-radius: 30px;
+  border: 2px solid #ffff;
+  min-height: 700px;
+}
