@@ -105,6 +105,13 @@ body {
   padding: 5rem !important;
 }
 
+@media  screen and (max-width: 420px) {
+
+.title-contactus, .contactus{
+  padding-left: 1rem !important;
+}
+}
+
 .bg-contactform {
   border-radius: 30px;
   backdrop-filter: blur(5px);
